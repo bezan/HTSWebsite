@@ -13,7 +13,7 @@ include '../Demo/connect.php';
     <body>
         <div id="content">
             <div id="top">
-               <div id="banner-left" >En banner till vänster?</div>
+               <div id="banner-left" >Här ska en match-logga vara</div>
                <div id="banner-center" >En banner till mitten??</div>
                <div id="banner-right" >En banner till höger???</div>
             </div>
@@ -25,8 +25,13 @@ include '../Demo/connect.php';
             <div id="center">
 				Mitten kolumnen!!
                 <div id="info">
-				<h1 class="dokument-item-header"> Matching</h1>
-				<p class="info">Inledning på webbsidan.</p>
+				<h1 class="dokument-item-header"> Här kan du logga in</h1>
+				<p class="info">Fyll i dina uppgifter om du vill registrera</p>
+				<form action="logIn.php" method="post">
+Användarnamn: <input type="text" name="myUser">
+Lösenord: <input type="text" name="myPassword">
+<input type="submit">
+</form>
 </div>
 </div>
             <div id="right">
@@ -35,6 +40,7 @@ include '../Demo/connect.php';
 
 			<div id="footer">
 				<p> &copy; 2013 Ditt namn här. Detta är en fotnot# 
+				
 				</p>
 			</div>
         </div>
