@@ -2,7 +2,7 @@
 $server="localhost";
 $user="root";
 $password="";
-$database="test";
+$database="minwebsida";
 
 $link = mysql_connect($server, $user, $password);
 if (!$link) {
