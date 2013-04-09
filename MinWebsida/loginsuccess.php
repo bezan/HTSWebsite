@@ -1,10 +1,4 @@
 ﻿<?php
-session_start();
-if(!isset($_SESSION['session_user'])){
-	header('Location: login.php');
-}
-?>
-<?php
 include '../MinWebsida/inloggadellerinte.php'
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
@@ -34,7 +28,7 @@ include '../MinWebsida/inloggadellerinte.php'
 				<p class="info">Detta är en lista över vilka elver som finns på skolan.</p>
                 </div>
 				
-				<form action="logout.php" method="post">
+				<form action="loggaut.php" method="post">
 <input type="submit" Name = "Submit1" VALUE = "Logga ut">
 </form>
 </div>
