@@ -22,14 +22,12 @@
 				<h1 class="dokument-item-header"> Här kan du logga in</h1>
 				<p class="info">Fyll i dina uppgifter om du är registrerad, annars registrera dig först.</p>
 				
-				<form action="login.php" method="post">
+				<form action="regsucess.php" method="post">
 Användarnamn: <input type="text" name="myUser"> <br />
 Lösenord: <input type="password" name="myPassword"> <br />
 <input type="submit" Name = "Submit1" VALUE = "Logga in"> 
 </form>
-<form action="registrera.php" method="post">
-<input type="submit" Name = "Submit1" VALUE = "Registrera">		
-</form>
+		
                 </div>
 				
 
