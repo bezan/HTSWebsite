@@ -17,23 +17,28 @@ h1 {
 
 /* background */
 body{
-	background-color: #0099CC;
+	background-color: #00FFFF;
+	
 }
 
 /* column */
 #content, #left, #right, #frame, #footer {
-	background: #66CCFF;
+	background: #FF0000;
 	}
 	
 /* Front */
 #center, #center-right {
-	background: #FFF;
+	background: #00FFFF;
 	}
 
 /* Spotlight */	
-#banner-right, #banner-left {
-	background-color: #003399;
+#banner-right  {
+	background-image: url('http://localhost/HTS/MinWebsida/matchbild2.jpg');
 }	
+#banner-left {
+background-image: url('http://localhost/HTS/MinWebsida/matchbild.jpg');
+
+}
 
 /***************************************
  *Banner i topen av sidan.
@@ -82,6 +87,7 @@ body{
 	padding-bottom: 0px;
 	padding-right: 5px;
 	padding-left: 5px;
+	
 }
 
 #center{

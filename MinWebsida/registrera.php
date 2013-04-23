@@ -8,9 +8,9 @@
     <body>
         <div id="content">
             <div id="top">
-               <div id="banner-left" >Här ska HTS-logga vara</div>
+               <div id="banner-left" ><img src='matchbild.jpg'></div>
                <div id="banner-center" ><h1>Matchning på nätet</h1></div>
-               <div id="banner-right" ><h1>LEK</h1></div>
+               <div id="banner-right" ><img src='matchbild2.jpg'></div>
             </div>
             <div id="left">
 					<div class="dokument-item">

@@ -6,16 +6,16 @@ include '../MinWebsida/inloggadellerinte.php'
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
     <head>
         <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
-        <link rel="stylesheet" title="magnum" type="text/css" href="../CSS/magnum.css" />
+        <link rel="stylesheet" title="kristoffer" type="text/css" href="../MinWebsida/bezans.css" />
 		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
         <title>Lek - lärare elev kommunikation!</title>	
     </head>
     <body>
         <div id="content">
             <div id="top">
-               <div id="banner-left" >Här ska HTS-logga vara</div>
-               <div id="banner-center" ><h1>LEK för vår skola</h1></div>
-               <div id="banner-right" ><h1>LEK</h1></div>
+               <div id="banner-left" ><img src='matchbild.jpg'></div>
+               <div id="banner-center" ><h1>Matchning på nätet</h1></div>
+               <div id="banner-right" ><img src='matchbild2.jpg'></div>
             </div>
             <div id="left">
 					<div class="dokument-item">
@@ -43,6 +43,3 @@ include '../MinWebsida/inloggadellerinte.php'
         </div>
     </body>
 </html>
-<?php
-   mysql_close($con);
-?>
