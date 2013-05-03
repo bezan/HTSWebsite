@@ -25,7 +25,7 @@
 				<form action="regsucess.php" method="post">
 Användarnamn: <input type="text" name="myUser"> <br />
 Lösenord: <input type="password" name="myPassword"> <br />
-<input type="submit" Name = "Submit1" VALUE = "Logga in"> 
+<input type="submit" Name = "Submit1" VALUE = "Registrera"> 
 </form>
 		
                 </div>

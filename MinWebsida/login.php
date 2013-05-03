@@ -1,7 +1,8 @@
 ﻿<?php
         include '../MinWebsida/connect.php';
 		session_start();
-         $query = "SELECT * FROM `user` WHERE `name`=\"$_POST[myUser]\" and `password`=\"$_POST[myPassword]\"";;
+		$pw=md5($_POST['myPassword']);
+         $query = "SELECT * FROM `user` WHERE `name`=\"$_POST[myUser]\" and `password`=\"$pw\"";;
          $result = mysql_query($query);
 		 $num_rows =  mysql_num_rows($result);
 		 if ($num_rows == 1) {
