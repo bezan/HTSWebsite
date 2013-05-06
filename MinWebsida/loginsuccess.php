@@ -31,6 +31,8 @@ include '../MinWebsida/inloggadellerinte.php'
 				<form action="loggaut.php" method="post">
 <input type="submit" Name = "Submit1" VALUE = "Logga ut">
 </form>
+
+
 </div>
             <div id="right">
 					Diverse länkar
