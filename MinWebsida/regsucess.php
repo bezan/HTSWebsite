@@ -9,7 +9,7 @@
 				 header('Location: index.html');
 			}
 		else{
-		$sql = "INSERT INTO `minwebsida`.`user` (`name`, `password`, `ID`) VALUES (\"$_POST[myUser]\", \"$Pw\", NULL)";
+		$sql = "INSERT INTO `minwebsida`.`user` (`name`, `password`, `ID`, `alder`, `intresse1`, `intresse2`, `ort`) VALUES (\"$_POST[myUser]\", \"$Pw\", NULL, \"$_POST[ålder]\", \"$_POST[intresse1]\", \"$_POST[intresse2]\", \"$_POST[ort]\")";
 		echo $sql;
         $result = mysql_query($sql);
 		echo $result;

@@ -19,12 +19,16 @@
             </div>
             <div id="center">
                 <div id="info">
-				<h1 class="dokument-item-header"> Här kan du logga in</h1>
+				<h1 class="dokument-item-header"> Varsågod att registrera dig!</h1>
 				<p class="info">Fyll i dina uppgifter om du är registrerad, annars registrera dig först.</p>
 				
 				<form action="regsucess.php" method="post">
 Användarnamn: <input type="text" name="myUser"> <br />
 Lösenord: <input type="password" name="myPassword"> <br />
+Ålder: <input type="text" name="ålder"> <br />
+Intresse 1: <input type="text" name="intresse1"> <br />
+Intresse 2: <input type="text" name="intresse2"> <br />
+Ort: <input type="text" name="ort"> <br />
 <input type="submit" Name = "Submit1" VALUE = "Registrera"> 
 </form>
 		
