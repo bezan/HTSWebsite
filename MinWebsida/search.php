@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     mysql_connect("localhost", "root", "") or die("Error connecting to database: ".mysql_error());
     
     mysql_select_db("minwebsida") or die(mysql_error());
@@ -54,7 +54,7 @@ include '../MinWebsida/inloggadellerinte.php'
         
          
         $raw_results = mysql_query("SELECT * FROM user
-            WHERE (`name` LIKE '%".$query."%')") or die(mysql_error());
+            WHERE (`name` LIKE '%".$query."%') OR (`alder` LIKE '%".$query."%') OR (`intresse1` LIKE '%".$query."%') OR (`intresse2` LIKE '%".$query."%') OR (`ort` LIKE '%".$query."%')") or die(mysql_error());
 			//lägg till alla intressen osv
                      
          
@@ -62,7 +62,7 @@ include '../MinWebsida/inloggadellerinte.php'
              
             while($results = mysql_fetch_array($raw_results)){
              
-                echo "<p><h3>".$results['name']."</h3>"."</p>";
+                echo "<p>"."<h3>"."Namn: ".$results['name']."<br />"."Ålder: ".$results['alder']."<br />"."Intresse 1: ".$results['intresse1']."<br />"."Intresse 2: ".$results['intresse2']."<br />"."Ort: ".$results['ort']."</h3>"."</p>"."<br />";
                 
             }
              
